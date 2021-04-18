@@ -1,0 +1,27 @@
+<div class="center">
+    <form (ngSubmit)="register()">
+        <label>Enter your Name</label><br />
+        <input type="text" name="username" [(ngModel)]=user.name><br />
+       
+        <label>Enter your Email</label><br />
+        <input type="email" name="email" [(ngModel)]=user.email><br />
+       
+        <label>Enter your Mobile number</label><br />
+        <input type="text" name="mobno" [(ngModel)]=user.mobileNo><br />
+       
+        <label>Enter your Address</label><br />
+        <input type="text" name="address" [(ngModel)]=user.address><br />
+       
+        <label>Enter your City</label><br />
+        <input type="text" name="city" [(ngModel)]=user.city><br />
+       
+        <label>Enter your Pincode</label><br />
+        <input type="text" name="pincode" [(ngModel)]=user.pincode><br />
+       
+        <label>Enter a Password</label><br />
+        <input type="password" name="pwd" [(ngModel)]=user.password><br />
+       
+        <button type="submit">Register Me</button>
+
+    </form>
+</div>

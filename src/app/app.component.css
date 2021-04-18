@@ -1,0 +1,78 @@
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    display: block;
+    overflow: auto;
+}
+
+.header {
+    background-color: rgb(30, 58, 58);
+    text-align: left;
+    padding: 10px;
+    color: white; 
+     
+}
+
+.header h2 {
+    width: fit-content;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+.header .search-container {
+    float: right;
+    margin-left: 5px;
+    margin-right: 50px;
+    width: 60%;
+    margin-top: -50px;    
+}
+
+.header .search-container button:hover {
+    background: #ccc;
+  }
+
+input {
+    width: 700px;
+    padding: 6px 10px;
+    margin-left: -100px;
+}
+
+.header button {
+    padding: 6px 10px;
+     background-color: rgb(231, 148, 39);
+}
+
+
+.header a {
+    float: right;
+    margin-top: -50px;
+    padding-right: 20px;
+}
+
+.fa_custom {
+    color: white
+}
+
+html, body {
+    height: 100%;
+    position: relative;
+}
+
+.card {
+    margin-bottom: 75px;
+}
+
+.footer {
+    background-color: rgb(12, 53, 53);
+    text-align: center;
+    color: white;
+   position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 4%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
+}

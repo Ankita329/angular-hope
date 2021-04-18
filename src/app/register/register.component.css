@@ -1,0 +1,27 @@
+.center {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border: solid grey;
+    margin-bottom: 20px;
+   
+}
+
+ input {
+   
+    cursor: right;
+    padding:10px 100px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  
+  
